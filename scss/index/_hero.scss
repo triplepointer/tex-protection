@@ -1,0 +1,107 @@
+.hero {
+    &__wrap {
+        padding-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__left-side {
+        height: 567px;
+        max-width: 478px;
+    }
+    &__header, &__description, &__button {
+        margin-left: 25px;
+    }
+    &__header {
+        font-family: "Roboto 900";
+        font-size: 34px;
+        line-height: 130%;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+    &__header span {
+        color: #00FFFF;
+    }
+    &__description {
+        margin-top: 30px;
+        font-family: "Roboto Medium";
+        font-size: 18px;
+        line-height: 130%;
+        color: #E4E8F3;
+    }
+    &__button {
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #E4E8F3;
+        border-radius: 5px;
+        width: 350px;
+        height: 43px;
+        font-family: "Roboto Medium";
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #272E48;
+    }
+    &__right-side {
+
+    }
+    &__image {
+        margin-left: 31px;
+        display: block;
+        background-image: url(../img/hero__image.png);
+        width: 832px;
+        height: 567px;
+    }
+    &__title {
+        margin-top: 64px;
+        width: 396px;
+        height: 170px;
+        display: block;
+        background-image: url(../img/hero__title.png);
+    }
+}
+
+@media all and (max-width: 1340px) {
+    .hero {
+        &__wrap {
+            // display: none;
+            justify-content: center;
+        }
+    }
+}
+@media all and (max-width: 890px) {
+    .hero {
+        &__image {
+            display: none;
+        }
+    }
+}
+@media all and (max-width: 435px) {
+    .hero {
+        &__title {
+            display: none;
+        }
+        &__header {
+            font-family: "Roboto Medium";
+            font-size: 18px;
+            line-height: 130%;
+            letter-spacing: 0.015em;
+            color: #FFFFFF;
+            margin-top: 30px;
+        }
+        &__description {
+            margin-top: 30px;
+            font-family: "Roboto";
+            font-size: 14px;
+            line-height: 130%;
+            color: #E4E8F3;
+        }
+        &__button {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+}

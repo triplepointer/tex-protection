@@ -1,0 +1,41 @@
+.presale {
+    &__third-wave.advantages__third-wave {
+        padding-top: 229px;
+    }
+    &>.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 180px;
+        background-image: url(../img/Group.png);
+        background-repeat: no-repeat;
+    }
+    &__title {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        font-family: "Roboto 900";
+        font-size: 34px;
+        line-height: 130%;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+    &__button {
+        background: #68E4F1;
+        border-radius: 5px;
+        padding: 13px 44px;
+    }
+    font-family: "Roboto Medium";
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #272E48;
+    @media all and (max-width: 435px) {
+        &__title {
+            font-size: 24px;
+        }
+        &__button {
+            width: 100%;
+        }
+    }
+}

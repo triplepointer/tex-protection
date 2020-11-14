@@ -1,0 +1,29 @@
+// Базовые настройки сетки
+body {
+    background: #262D46;
+}
+textarea {
+    resize: none;
+}
+
+@import "grid";
+@import "btn";
+@import "fonts";
+@import "text-grad";
+
+// Шапка сайта
+@import "index/navbar";
+// Hero
+@import "index/hero";
+// Advantages
+@import "index/advantages";
+// Our-software
+@import "index/our-software";
+// Process-of-work
+@import "index/process-of-work";
+// Presale
+@import "index/presale";
+// Request
+@import "index/request";
+// Footer
+@import "index/footer";

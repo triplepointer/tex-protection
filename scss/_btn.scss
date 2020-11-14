@@ -1,0 +1,18 @@
+.flag {
+    width: 32px;
+    height: 24px;
+    &__item {
+        width: 32px;
+        height: 8px;
+        opacity: 1;
+        &--1 {
+            background-color: #FFFFFF;
+        }
+        &--2 {
+            background-color: #0052B4;
+        }
+        &--3 {
+            background-color: #D80027;
+        }
+    }
+}
