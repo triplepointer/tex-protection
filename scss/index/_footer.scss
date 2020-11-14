@@ -1,4 +1,8 @@
 .footer {
+    & .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     &__wrap {
         display: flex;
         justify-content: space-between;

@@ -2632,6 +2632,11 @@ a {
   }
 }
 
+.footer .container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .footer__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
