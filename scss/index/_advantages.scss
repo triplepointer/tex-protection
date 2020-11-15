@@ -22,13 +22,13 @@
         display: flex;
         flex-wrap: wrap;
     }
-    @media all and (max-width: 1326px) {
+    @media all and (max-width: 1343px) {
         &__items {
             justify-content: center;
             margin-left: 0;
         }
     }
-    @media all and (max-width: 858px) {
+    @media all and (max-width: 875px) {
         &__items {
             flex-direction: column;
             align-items: center;
@@ -86,7 +86,7 @@
             color: #E4E8F3;
         }
     }
-    @media all and (max-width: 858px) {
+    @media all and (max-width: 875px) {
         &__reliability {
             margin-left: 37px;
             margin-top: 30px;
@@ -118,7 +118,7 @@
             color: #E4E8F3;
         }
     }
-    @media all and (max-width: 858px) {
+    @media all and (max-width: 875px) {
         &__security {
             margin-left: 3px;
             margin-top: 30px;
